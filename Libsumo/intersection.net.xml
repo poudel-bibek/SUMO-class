@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+    <location netOffset="100.00,100.00" convBoundary="0.00,0.00,200.00,200.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+    
+    <!-- North-South direction -->
+    <edge id="N2C" from="N" to="C" priority="1">
+        <lane id="N2C_0" index="0" speed="13.89" length="100" shape="98.40,200.00 98.40,104.80"/>
+    </edge>
+    <edge id="C2S" from="C" to="S" priority="1">
+        <lane id="C2S_0" index="0" speed="13.89" length="100" shape="98.40,95.20 98.40,0.00"/>
+    </edge>
+    
+    <!-- South-North direction -->
+    <edge id="S2C" from="S" to="C" priority="1">
+        <lane id="S2C_0" index="0" speed="13.89" length="100" shape="101.60,0.00 101.60,95.20"/>
+    </edge>
+    <edge id="C2N" from="C" to="N" priority="1">
+        <lane id="C2N_0" index="0" speed="13.89" length="100" shape="101.60,104.80 101.60,200.00"/>
+    </edge>
+    
+    <!-- Traffic light junction -->
+    <junction id="C" type="traffic_light" x="100.00" y="100.00" incLanes="N2C_0 S2C_0" intLanes="" shape="96.80,104.80 103.20,104.80 103.20,95.20 96.80,95.20">
+        <request index="0" response="00" foes="11"/>
+        <request index="1" response="00" foes="11"/>
+    </junction>
+    
+    <!-- End points -->
+    <junction id="N" type="dead_end" x="100.00" y="200.00" incLanes="C2N_0" intLanes="" shape="96.80,200.00 103.20,200.00"/>
+    <junction id="S" type="dead_end" x="100.00" y="0.00" incLanes="C2S_0" intLanes="" shape="103.20,0.00 96.80,0.00"/>
+    
+    <!-- Traffic Light Program -->
+    <tlLogic id="C" type="static" programID="0" offset="0">
+        <phase duration="31" state="GG"/>
+        <phase duration="4"  state="yy"/>
+        <phase duration="31" state="GG"/>
+        <phase duration="4"  state="yy"/>
+    </tlLogic>
+    
+    <!-- Connections -->
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0" tl="C" linkIndex="0" dir="s" state="O"/>
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0" tl="C" linkIndex="1" dir="s" state="O"/>
+</net>
