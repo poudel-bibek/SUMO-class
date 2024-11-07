@@ -1,0 +1,15 @@
+***Starting server on port 51423 ***
+Loading net-file from 'simple.net.xml' ... done (10ms).
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 116.00
+Performance: 
+ Duration: 126.73s
+ TraCI-Duration: 115.09s
+ Real time factor: 0.915361
+ UPS: 13.935578
+Vehicles: 
+ Inserted: 32 (Loaded: 50)
+ Running: 32
+ Waiting: 1
+

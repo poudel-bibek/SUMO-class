@@ -1,0 +1,5 @@
+<types>
+    <type id="major_arterial" priority="3" numLanes="3" speed="16.67"/> <!-- 60 km/h -->
+    <type id="secondary_road" priority="2" numLanes="2" speed="13.89"/> <!-- 50 km/h -->
+    <type id="minor_road" priority="1" numLanes="1" speed="11.11"/> <!-- 40 km/h -->
+</types>

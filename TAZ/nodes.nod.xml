@@ -1,0 +1,110 @@
+<nodes>
+    <!-- TAZ Connector Nodes -->
+    <!-- TAZ1: Southwest Corner -->
+    <node id="source_TAZ1_node" x="-100" y="100" type="priority"/>
+    <node id="sink_TAZ1_node" x="100" y="-100" type="priority"/>
+
+    <!-- TAZ2: Southeast Corner -->
+    <node id="source_TAZ2_node" x="1000" y="100" type="priority"/>
+    <node id="sink_TAZ2_node" x="800" y="-100" type="priority"/>
+
+    <!-- TAZ3: Northwest Corner -->
+    <node id="source_TAZ3_node" x="-100" y="600" type="priority"/>
+    <node id="sink_TAZ3_node" x="100" y="800" type="priority"/>
+
+    <!-- TAZ4: Northeast Corner -->
+    <node id="source_TAZ4_node" x="1000" y="600" type="priority"/>
+    <node id="sink_TAZ4_node" x="800" y="800" type="priority"/>
+
+
+    <node id="N0_0" x="0" y="0"/>
+    <node id="N100_0" x="100" y="0"/>
+    <node id="N200_0" x="200" y="0"/>
+    <node id="N300_0" x="300" y="0"/>
+    <node id="N400_0" x="400" y="0"/>
+    <node id="N500_0" x="500" y="0"/>
+    <node id="N600_0" x="600" y="0"/>
+    <node id="N700_0" x="700" y="0"/>
+    <node id="N800_0" x="800" y="0"/>
+    <node id="N900_0" x="900" y="0"/>
+    <node id="N0_100" x="0" y="100"/>
+    <node id="N100_100" x="100" y="100"/>
+    <node id="N200_100" x="200" y="100"/>
+    <node id="N300_100" x="300" y="100"/>
+    <node id="N400_100" x="400" y="100"/>
+    <node id="N500_100" x="500" y="100"/>
+    <node id="N600_100" x="600" y="100"/>
+    <node id="N700_100" x="700" y="100"/>
+    <node id="N800_100" x="800" y="100"/>
+    <node id="N900_100" x="900" y="100"/>
+    <node id="N0_200" x="0" y="200"/>
+    <node id="N100_200" x="100" y="200"/>
+    <node id="N200_200" x="200" y="200"/>
+    <node id="N300_200" x="300" y="200"/>
+    <node id="N400_200" x="400" y="200"/>
+    <node id="N500_200" x="500" y="200"/>
+    <node id="N600_200" x="600" y="200"/>
+    <node id="N700_200" x="700" y="200"/>
+    <node id="N800_200" x="800" y="200"/>
+    <node id="N900_200" x="900" y="200"/>
+    <node id="N0_300" x="0" y="300"/>
+    <node id="N100_300" x="100" y="300"/>
+    <node id="N200_300" x="200" y="300"/>
+    <node id="N300_300" x="300" y="300"/>
+    <node id="N400_300" x="400" y="300"/>
+    <node id="N500_300" x="500" y="300"/>
+    <node id="N600_300" x="600" y="300"/>
+    <node id="N700_300" x="700" y="300"/>
+    <node id="N800_300" x="800" y="300"/>
+    <node id="N900_300" x="900" y="300"/>
+    <node id="N0_400" x="0" y="400"/>
+    <node id="N100_400" x="100" y="400"/>
+    <node id="N200_400" x="200" y="400"/>
+    <node id="N300_400" x="300" y="400"/>
+    <node id="N400_400" x="400" y="400"/>
+    <node id="N500_400" x="500" y="400"/>
+    <node id="N600_400" x="600" y="400"/>
+    <node id="N700_400" x="700" y="400"/>
+    <node id="N800_400" x="800" y="400"/>
+    <node id="N900_400" x="900" y="400"/>
+    <node id="N0_500" x="0" y="500"/>
+    <node id="N100_500" x="100" y="500"/>
+    <node id="N200_500" x="200" y="500"/>
+    <node id="N300_500" x="300" y="500"/>
+    <node id="N400_500" x="400" y="500"/>
+    <node id="N500_500" x="500" y="500"/>
+    <node id="N600_500" x="600" y="500"/>
+    <node id="N700_500" x="700" y="500"/>
+    <node id="N800_500" x="800" y="500"/>
+    <node id="N900_500" x="900" y="500"/>
+    <node id="N0_600" x="0" y="600"/>
+    <node id="N100_600" x="100" y="600"/>
+    <node id="N200_600" x="200" y="600"/>
+    <node id="N300_600" x="300" y="600"/>
+    <node id="N400_600" x="400" y="600"/>
+    <node id="N500_600" x="500" y="600"/>
+    <node id="N600_600" x="600" y="600"/>
+    <node id="N700_600" x="700" y="600"/>
+    <node id="N800_600" x="800" y="600"/>
+    <node id="N900_600" x="900" y="600"/>
+    <node id="N0_700" x="0" y="700"/>
+    <node id="N100_700" x="100" y="700"/>
+    <node id="N200_700" x="200" y="700"/>
+    <node id="N300_700" x="300" y="700"/>
+    <node id="N400_700" x="400" y="700"/>
+    <node id="N500_700" x="500" y="700"/>
+    <node id="N600_700" x="600" y="700"/>
+    <node id="N700_700" x="700" y="700"/>
+    <node id="N800_700" x="800" y="700"/>
+    <node id="N900_700" x="900" y="700"/>
+    <node id="N0_800" x="0" y="800"/>
+    <node id="N100_800" x="100" y="800"/>
+    <node id="N200_800" x="200" y="800"/>
+    <node id="N300_800" x="300" y="800"/>
+    <node id="N400_800" x="400" y="800"/>
+    <node id="N500_800" x="500" y="800"/>
+    <node id="N600_800" x="600" y="800"/>
+    <node id="N700_800" x="700" y="800"/>
+    <node id="N800_800" x="800" y="800"/>
+    <node id="N900_800" x="900" y="800"/>
+</nodes>

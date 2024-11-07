@@ -1,0 +1,20 @@
+<configuration>
+    <input>
+        <net-file value="simple.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+    </input>
+    <output>
+        <log value="sumo_logfile.txt"/>
+        <error-log value="sumo_errorlog.txt"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+    <processing>
+        <step-length value="1"/>
+    </processing>
+    <report>
+        <verbose value="true"/>
+    </report>
+</configuration>

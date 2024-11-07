@@ -1,0 +1,54 @@
+<additional>
+    <!-- TAZ1: Southwest Corner -->
+    <taz id="TAZ1">
+        <tazSource id="source_TAZ1" edges="
+            E0_0_to_0_100 E0_100_to_0_200
+            E100_0_to_100_100 E100_100_to_100_200
+            E200_0_to_200_100 E200_100_to_200_200
+        " weight="1"/>
+        <tazSink id="sink_TAZ1" edges="
+            E0_0_to_100_0 E100_0_to_200_0
+            E0_100_to_100_100 E100_100_to_200_100
+            E0_200_to_100_200 E100_200_to_200_200
+        " weight="1"/>
+    </taz>
+    <!-- TAZ2: Southeast Corner -->
+    <taz id="TAZ2">
+        <tazSource id="source_TAZ2" edges="
+            E600_0_to_600_100 E600_100_to_600_200
+            E700_0_to_700_100 E700_100_to_700_200
+            E800_0_to_800_100 E800_100_to_800_200
+        " weight="1"/>
+        <tazSink id="sink_TAZ2" edges="
+            E600_0_to_700_0 E700_0_to_800_0
+            E600_100_to_700_100 E700_100_to_800_100
+            E600_200_to_700_200 E700_200_to_800_200
+        " weight="1"/>
+    </taz>
+    <!-- TAZ3: Northwest Corner -->
+    <taz id="TAZ3">
+        <tazSource id="source_TAZ3" edges="
+            E0_500_to_0_600 E0_600_to_0_700
+            E100_500_to_100_600 E100_600_to_100_700
+            E200_500_to_200_600 E200_600_to_200_700
+        " weight="1"/>
+        <tazSink id="sink_TAZ3" edges="
+            E0_500_to_100_500 E100_500_to_200_500
+            E0_600_to_100_600 E100_600_to_200_600
+            E0_700_to_100_700 E100_700_to_200_700
+        " weight="1"/>
+    </taz>
+    <!-- TAZ4: Northeast Corner -->
+    <taz id="TAZ4">
+        <tazSource id="source_TAZ4" edges="
+            E600_500_to_600_600 E600_600_to_600_700
+            E700_500_to_700_600 E700_600_to_700_700
+            E800_500_to_800_600 E800_600_to_800_700
+        " weight="1"/>
+        <tazSink id="sink_TAZ4" edges="
+            E600_500_to_700_500 E700_500_to_800_500
+            E600_600_to_700_600 E700_600_to_800_600
+            E600_700_to_700_700 E700_700_to_800_700
+        " weight="1"/>
+    </taz>
+</additional>

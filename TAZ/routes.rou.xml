@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-06 21:04:31 by Eclipse SUMO duarouter Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="simple.net.xml"/>
+        <additional-files value="vtypes.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="0" length="5.00" maxSpeed="70.00" accel="2.6" decel="4.5" sigma="0.5"/>
+    <vehicle id="63" type="0" depart="0.79" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="283" type="0" depart="2.83" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="519" type="0" depart="4.77" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="245" type="0" depart="11.12" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="88" type="0" depart="16.72" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="9" type="0" depart="18.39" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="749" type="0" depart="18.97" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="412" type="0" depart="19.61" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="391" type="0" depart="23.05" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="198" type="0" depart="36.86" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="526" type="0" depart="37.70" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="142" type="0" depart="39.03" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="571" type="0" depart="46.90" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="772" type="0" depart="47.95" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="543" type="0" depart="54.47" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="5" type="0" depart="55.65" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="597" type="0" depart="70.72" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="587" type="0" depart="73.98" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="711" type="0" depart="76.05" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="551" type="0" depart="76.76" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="418" type="0" depart="77.89" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="111" type="0" depart="81.63" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="829" type="0" depart="88.88" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="907" type="0" depart="92.51" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="915" type="0" depart="95.90" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="223" type="0" depart="101.43" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="508" type="0" depart="105.18" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="399" type="0" depart="106.94" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="367" type="0" depart="107.93" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="695" type="0" depart="108.25" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="873" type="0" depart="108.86" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="884" type="0" depart="110.09" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="370" type="0" depart="114.89" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="129" type="0" depart="116.59" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="960" type="0" depart="120.35" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="944" type="0" depart="127.28" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="920" type="0" depart="138.74" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="648" type="0" depart="145.86" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="318" type="0" depart="150.40" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="546" type="0" depart="153.28" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="565" type="0" depart="153.62" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="650" type="0" depart="159.54" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="19" type="0" depart="163.02" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="567" type="0" depart="167.76" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="92" type="0" depart="169.75" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="137" type="0" depart="179.52" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="457" type="0" depart="182.42" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="73" type="0" depart="186.01" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="378" type="0" depart="187.53" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+    <vehicle id="503" type="0" depart="200.43" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <route edges="source_TAZ1 E0_100_to_0_200 E0_200_to_0_300 E0_300_to_0_400 E0_400_to_100_400 E100_400_to_200_400 E200_400_to_300_400 E300_400_to_400_400 E400_400_to_500_400 E500_400_to_600_400 E600_400_to_700_400 E700_400_to_800_400 E800_400_to_800_500 E800_500_to_800_600 E800_600_to_800_700 sink_TAZ4"/>
+    </vehicle>
+</routes>

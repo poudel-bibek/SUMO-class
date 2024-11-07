@@ -1,0 +1,8 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/datamode_file.xsd">
+    <interval id="0" begin="0" end="3600">
+        <tazRelation count="1000" from="TAZ1" to="TAZ4" vType="passenger" departLane="free" departSpeed="max" departPos="random" arrivalPos="random"/>
+        <tazRelation count="1000" from="TAZ2" to="TAZ3" vType="passenger" departLane="free" departSpeed="max" departPos="random" arrivalPos="random"/>
+        <tazRelation count="800" from="TAZ3" to="TAZ2" vType="passenger" departLane="free" departSpeed="max" departPos="random" arrivalPos="random"/>
+        <tazRelation count="800" from="TAZ4" to="TAZ1" vType="passenger" departLane="free" departSpeed="max" departPos="random" arrivalPos="random"/>
+    </interval>
+</data>
