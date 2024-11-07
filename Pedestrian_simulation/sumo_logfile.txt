@@ -1,0 +1,20 @@
+***Starting server on port 43225 ***
+Loading net-file from 'ped_net.net.xml' ... done (44ms).
+Loading done.
+Warning: The attribute departPos is no longer supported for walks, please use the person attribute, the arrivalPos of the previous step or explicit stops.
+Simulation started with time: 0.00.
+Simulation ended at time: 203.40
+Performance: 
+ Duration: 100.79s
+ TraCI-Duration: 68.16s
+ Real time factor: 2.01804
+ UPS: 0.000000
+ UPS-Persons: 61.384449
+Vehicles: 
+ Inserted: 0
+ Running: 0
+ Waiting: 0
+Persons: 
+ Inserted: 51
+ Running: 0
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" junctionCornerDetail="5">
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,100.00,100.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+    
+    <!-- Main walkway -->
+    <edge id="walkway1" from="W" to="E" priority="1">
+        <lane id="walkway1_0" index="0" speed="1.4" length="100.00" width="2.00" allow="pedestrian" shape="0.00,0.00 100.00,0.00"/>
+    </edge>
+    
+    <!-- Junction definitions -->
+    <junction id="W" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,1.00 0.00,-1.00"/>
+    <junction id="E" type="dead_end" x="100.00" y="0.00" incLanes="walkway1_0" intLanes="" shape="100.00,-1.00 100.00,1.00"/>
+</net>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Define pedestrian type -->
+    <vType id="ped_type" vClass="pedestrian" width="0.7" length="0.35" minGap="0.25" maxSpeed="1.4" color="255,255,0"/>
+    
+    <!-- Define a single pedestrian -->
+    <person id="p0" type="ped_type" depart="0">
+        <walk edges="walkway1" departPos="0"/>
+    </person>
+    
+    <!-- Define pedestrian flow -->
+    <personFlow id="flow0" type="ped_type" begin="0" end="100" period="2">
+        <walk edges="walkway1"/>
+    </personFlow>
+</routes>

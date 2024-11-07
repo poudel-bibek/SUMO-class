@@ -1,0 +1,90 @@
+
+## A basic pedestrian simulation using SUMO 
+
+## Structure
+```
+project/
+├── ped_sim.sumocfg        # SUMO configuration file
+├── ped_net.net.xml        # Network definition with walkway
+├── ped_routes.rou.xml     # Pedestrian routes and flows
+└── ped_control.py         # Simulation control script
+```
+
+## File Descriptions
+
+### 1. SUMO Configuration (`ped_sim.sumocfg`)
+Basic configuration file that defines:
+- Input files (network and routes)
+- Simulation duration (1000 steps)
+- Step length (0.3 seconds)
+- Pedestrian model type (nonInteracting)
+- GUI settings for visualization
+
+### 2. Network Definition (`ped_net.net.xml`)
+Defines a simple walkway with:
+- Single straight pathway (100m length)
+- Pedestrian-specific lane (2m width)
+- Two endpoints (West and East)
+- Walking speed limit (1.4 m/s)
+
+### 3. Routes Configuration (`ped_routes.rou.xml`)
+Defines:
+- Pedestrian type with parameters:
+  - Width: 0.7m
+  - Length: 0.35m
+  - Min gap: 0.25m
+  - Max speed: 1.4 m/s
+- Single test pedestrian
+- Continuous flow (one pedestrian every 2 seconds)
+
+### 4. Simulation Control (`ped_control.py`)
+Python script that:
+- Initializes the SUMO-GUI simulation
+- Monitors pedestrian movements
+- Collects statistics about:
+  - Number of pedestrians
+  - Pedestrian positions
+  - Edge occupancy
+
+## Running the Simulation
+
+1. Set the SUMO_HOME environment variable:
+```bash
+export SUMO_HOME="/path/to/sumo"
+```
+
+2. Run the simulation:
+```bash
+python ped_control.py
+```
+
+The script outputs statistics every 50 simulation steps, including:
+- Current simulation step
+- Total number of pedestrians
+- Positions of up to 5 pedestrians
+- Current edge IDs for pedestrians
+
+## Understanding the Output
+
+The simulation provides the following metrics:
+- **Pedestrian Count**: Total number of pedestrians in simulation
+- **Positions**: (x,y) coordinates of pedestrians
+- **Edge IDs**: Current edge where each pedestrian is located
+- **Simulation Step**: Current step in the simulation
+
+## Pedestrian Movement
+
+Pedestrians move along the walkway with:
+- Constant flow rate (one new pedestrian every 2 seconds)
+- Regular walking speed (1.4 m/s)
+- Fixed pathway from West to East
+- No interactions between pedestrians (simple model)
+
+## Notes
+
+- Simulation runs for 1000 steps by default
+- Uses yellow coloring for pedestrian visualization
+- Simple non-interacting pedestrian model
+- GUI visualization enabled for observation
+- Statistics printed every 50 steps
+
