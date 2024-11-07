@@ -4,9 +4,8 @@ This guide outlines the step-by-step process to set up and run a traffic simulat
 
 ## Prerequisites
 
-- SUMO (latest version)
-- Python 3.x
-- Required Python packages (list them if any)
+- SUMO (1.20.0)
+- Python 3.12
 
 ## Setup Process
 
@@ -154,17 +153,3 @@ project/
 - Make sure all XML files are properly formatted and validated
 - Keep backups of your configuration files
 - Check SUMO logs for any errors during the process
-
-## Troubleshooting
-
-If you encounter any issues:
-1. Verify all input files exist and are properly formatted
-2. Check SUMO console output for error messages
-3. Ensure all file paths are correct
-4. Validate XML files for syntax errors
-
-## Additional Resources
-
-- [SUMO Documentation](https://sumo.dlr.de/docs/)
-- [SUMO User Guide](https://sumo.dlr.de/docs/SUMO_User_Documentation.html)
-- [SUMO Tutorials](https://sumo.dlr.de/docs/Tutorials.html)
